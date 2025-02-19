@@ -1,8 +1,49 @@
-# React + Vite
+# Quiz App Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Quiz App is a modern React application bootstrapped with Vite.
 
-Currently, two official plugins are available:
+## Features
+- **Fast Development:** Powered by React and Vite for seamless HMR.
+- **Linting:** ESLint configured for code quality.
+- **Modern JS:** Uses latest ECMAScript features with Babel/SWC support.
+- **Responsive UI:** Built with a responsive design in mind.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React:** UI library for building interactive interfaces.
+- **Vite:** Fast bundler and development server.
+- **Babel / SWC:** Tools for transforming modern JavaScript.
+- **ESLint:** Tool for identifying and reporting on patterns in JS.
+
+## Setup Instructions
+1. **Clone the Repository**
+   ```bash
+   git clone 
+   cd quizApp/fe
+   ```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+3. **Run the Development Server**
+   ```bash
+   npm run dev
+   ```
+4. **Lint the Code**
+   ```bash
+   npm run lint
+   ```
+
+## Folder Structure
+```
+quizApp/
+├── fe/              // Frontend source code
+│   ├── public/      // Public assets
+│   ├── src/         // React components and pages
+│   │   ├── assets/  // Images and styles
+│   │   ├── components/ 
+│   │   └── App.jsx
+│   └── README.md    // Project documentation
+└── be/              // Backend source code 
+```
+
