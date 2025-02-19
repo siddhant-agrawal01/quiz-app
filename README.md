@@ -1,7 +1,21 @@
 # Quiz App Frontend
 
 ## Introduction
-Quiz App is a modern React application bootstrapped with Vite.
+ A **quiz platform** where users can attempt quizzes, get instant feedback, and track their progress.
+
+
+## Features to Implement
+- **Quiz Creation & Management**:
+  - Display a list of questions.
+  - Allow multiple attempts.
+  - Shows attempt history.
+- **User Interaction**:
+  - Users can select answers and receive **instant feedback**.
+  -  **timer-based quizzes** 
+- **Progress Tracking**:
+  - A **scoreboard** at the end of each quiz.
+- **Bonus Challenges**:
+  - Saving quiz history using IndexedDB.
 
 ## Features
 - **Fast Development:** Powered by React and Vite for seamless HMR.
@@ -46,4 +60,18 @@ quizApp/
 │   └── README.md    // Project documentation
 └── be/              // Backend source code 
 ```
+
+## Express Backend Setup
+1. **Navigate to the Backend Folder**
+   ```bash
+   cd ../be
+   ```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+3. **Run the Backend Server**
+   ```bash
+   npm start
+   ```
 
