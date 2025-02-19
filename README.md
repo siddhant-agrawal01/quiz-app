@@ -1,4 +1,4 @@
-# Quiz App Frontend
+# Quiz App 
 
 ## Introduction
  A **quiz platform** where users can attempt quizzes, get instant feedback, and track their progress.
