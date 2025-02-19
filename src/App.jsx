@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/quiz")
+    fetch("https://quiz-backend-three-alpha.vercel.app/api/quiz")
       .then((response) => response.json())
       .then((data) => {
         setQuizData(data);
